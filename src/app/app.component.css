@@ -1,0 +1,43 @@
+@media only screen and (max-width: 868px) {
+    .company span{
+        text-align: right;
+    }
+    /* For desktop: */
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        height: auto !important;
+    }
+    .about-me{
+        height: auto;
+    }
+
+    .company {
+        flex-direction: column;
+        margin-bottom: 10px !important;
+    }
+
+    .company>div{
+        max-width: 100% !important;
+    }
+
+    .company>div>a{
+        text-align: center;
+    }
+    /* For desktop: */
+}
+
+@media only screen and (max-width: 690px) {
+    .container{
+        height: 80% !important;
+    }
+
+    .courses-cont {
+        height: 110% !important;
+    }
+
+    .notes>div{
+        margin-bottom: 5px !important;
+    }
+}
